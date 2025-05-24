@@ -17,10 +17,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="w-screen h-screen App bg-gradient-to-bl from-blue-900 to-teal-600">
+    <div className="w-screen h-screen App bg-gradient-to-bl from-pink-900 to-pink-600">
       <h1 className="p-6 text-6xl text-center text-white ">Taskify</h1>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
-      <TodoList />
+      <TodoList todos={todos} />
     </div>
   );
 };
