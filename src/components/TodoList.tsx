@@ -1,6 +1,6 @@
 import { AiFillDelete, AiFillEdit } from "react-icons/ai";
 import { Todo } from "../model";
-import { MdCancel, MdDone } from "react-icons/md";
+import { MdDone } from "react-icons/md";
 import { FcCancel } from "react-icons/fc";
 
 interface TodoListProps {
